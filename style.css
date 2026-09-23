@@ -1,29 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+.box {
+    width: 250px;
+    padding: 15px;
+    border: 3px solid rgb(107, 35, 7);
+    background-color: rgb(157, 182, 44);
 }
 
 h1 {
-    color: #2c3e50;
+    color: rgb(50, 5, 49);
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.noticias h2 {
+    color: rgb(126, 2, 2);
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-button:hover {
-    background-color: #2980b9;
+#titulo1 {
+    color: rgb(39, 170, 10);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
 }

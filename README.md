@@ -5,4 +5,4 @@
 **Docente:** Mtra. Yeniza Sarahi Montoya Martinez
 
 ## Propósito del Repositorio
-Este repositorio contiene las prácticas del curso de Aplicaciones Web. En esta primera práctica se configuró e instaló el entorno de desarrollo completo (VS Code, Git, Node.js, GitHub y extensiones).
+Este repositorio contiene los avances del curso de Aplicaciones Web. En esta práctica se realizó la maquetación HTML5 y estilos CSS vistos en clase.
