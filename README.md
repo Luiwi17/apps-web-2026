@@ -5,4 +5,4 @@
 **Docente:** Mtra. Yeniza Sarahi Montoya Martinez
 
 ## Propósito del Repositorio
-Este repositorio contiene los avances del curso de Aplicaciones Web. En esta práctica se realizó la maquetación HTML5 y estilos CSS vistos en clase.
+Este repositorio contiene los avances del curso de Aplicaciones Web. En esta práctica se realizó el HTML5 y estilos CSS vistos en clase.
