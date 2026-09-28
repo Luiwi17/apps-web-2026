@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +7,61 @@
 </head>
 <body>
 
-    <h1>Detalle del Producto</h1>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Detalle del Producto</h1>
+    </header>
 
-    <h2>Articulo Seleccionado</h2>
-    <p><b>Nombre del producto:</b> Mochila Escolar</p>
-    <p><b>Descripcion:</b> Mochila azul en muy buen estado, con tres compartimentos y cierres funcionales.</p>
-    <p><b>Categoria:</b> Articulos Escolares</p>
-    <p><b>Estado:</b> Usado - Buen estado</p>
+    <!-- Contenido principal -->
+    <main>
 
-    <hr>
+        <!-- Sección del artículo seleccionado -->
+        <section>
+            <h2>Articulo Seleccionado</h2>
+            
+            <!-- Requisito: Imagen del producto -->
+            <img src="https://tse4.mm.bing.net/th/id/OIP.MRkYtHXXSr55BAH9RVWpMwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" 
+            alt="Mochila escolar azul" width="200">
 
-    <h2>Datos de Contacto del Publicador</h2>
-    <p><b>Publicado por:</b> Juan Perez</p>
-    <p><b>Telefono / WhatsApp:</b> 771-123-4567</p>
-    <p><b>Correo electronico:</b> juan.perez@email.com</p>
+            <p><b>Nombre del producto:</b> Mochila Escolar</p>
+            <p><b>Descripcion:</b> Mochila azul en muy buen estado, con tres compartimentos y cierres funcionales.</p>
+            <p><b>Categoria:</b> Articulos Escolares</p>
+            <p><b>Estado:</b> Usado - Buen estado</p>
+        </section>
 
-    <hr>
+        <hr>
 
-    <h2>Ubicacion para Entrega</h2>
-    <p><b>Ciudad / Municipio:</b> Pachuca de Soto</p>
-    <p><b>Zona o referencia:</b> Cerca de la entrada principal de la Universidad</p>
+        <!-- Sección de contacto -->
+        <section>
+            <h2>Datos de Contacto del Publicador</h2>
+            
+            <!-- Requisito: Lista de elementos -->
+            <ul>
+                <li><b>Publicado por:</b> Juan Perez</li>
+                <li><b>Telefono / WhatsApp:</b> 771-123-4567</li>
+                <li><b>Correo electronico:</b> juan.perez@email.com</li>
+                <!-- Requisito: Enlace -->
+                <li><b>Contacto directo:</b> <a href="mailto:juan.perez@email.com">Enviar correo al vendedor</a></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Sección de ubicación -->
+        <section>
+            <h2>Ubicacion para Entrega</h2>
+            <p><b>Ciudad / Municipio:</b> Pachuca de Soto</p>
+            <p><b>Zona o referencia:</b> Cerca de la entrada principal de la Universidad</p>
+            <!-- Requisito: Enlace a ubicación -->
+            <p><a href="https://maps.google.com" target="_blank">Ver mapa de la ubicación</a></p>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p><small>Página de detalle para coordinación de entregas</small></p>
+    </footer>
 
 </body>
 </html>
